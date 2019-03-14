@@ -1,0 +1,28 @@
+{
+  "name": "pulsate-react-native-sdk",
+  "version": "1.0.0",
+  "description": "## Getting started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Rafael Skubisz",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "16.6.1",
+    "react-native": "0.57.4",
+    "react-native-windows": "0.41.0-rc.1"
+  },
+  "typings": "pulsate-react-native-sdk.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PulsateHQ/Pulsate-React-Native-SDK.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PulsateHQ/Pulsate-React-Native-SDK/issues"
+  },
+  "homepage": "https://github.com/PulsateHQ/Pulsate-React-Native-SDK#readme"
+}
