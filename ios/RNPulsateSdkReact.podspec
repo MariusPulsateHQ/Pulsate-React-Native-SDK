@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "RNPulsateSdkReact"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "Pulsate React SDK"
 
   s.homepage     = "http://pulsatehq.com/"

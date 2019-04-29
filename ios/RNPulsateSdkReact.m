@@ -91,6 +91,12 @@ RCT_EXPORT_METHOD(setLocationUpdatesEnabled:(BOOL)enabled)
     [manager setLocationUpdatesEnabled:enabled];
 }
 
+RCT_EXPORT_METHOD(setSmallInAppNotificationDuration:(NSInteger)duration)
+{
+    PULPulsateManager* manager = [PULPulsateFactory getDefaultInstance];
+    [manager setSmallInAppNotificationDuration:duration];
+}
+
 RCT_EXPORT_METHOD(setInAppNotificationEnabled:(BOOL)enabled)
 {
     PULPulsateManager* manager = [PULPulsateFactory getDefaultInstance];

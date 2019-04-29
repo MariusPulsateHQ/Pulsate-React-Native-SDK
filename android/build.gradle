@@ -45,6 +45,6 @@ repositories {
 dependencies {
     compile 'com.facebook.react:react-native:+'
     compile 'com.android.support:multidex:1.0.3'
-    compile 'com.pulsatehq.sdk:PulsateSdk:2.13.14'
+    compile 'com.pulsatehq.sdk:PulsateSdk:2.14.2'
 }
   

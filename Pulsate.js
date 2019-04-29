@@ -34,6 +34,9 @@ export const Pulsate = {
     showLastInAppNotification: function () {
         RNPulsateSdkReact.showLastInAppNotification();
     },
+    setSmallInAppNotificationDuration(duration: integer) {
+        RNPulsateSdkReact.setSmallInAppNotificationDuration(enadurationled);
+    },
     setPushNotificationEnabled: function (enabled: boolean) {
         RNPulsateSdkReact.setPushNotificationEnabled(enabled);
     },

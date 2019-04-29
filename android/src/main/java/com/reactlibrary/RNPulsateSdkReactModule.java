@@ -126,6 +126,12 @@ public class RNPulsateSdkReactModule extends ReactContextBaseJavaModule {
     }
     
     @ReactMethod
+    void setSmallInAppNotificationDuration(int duration) {
+        IPulsateManager pulsateManager = PulsateFactory.getInstance();
+        pulsateManager.setSmallInAppNotificationDuration(duration);
+    }
+
+    @ReactMethod
     void setInAppNotificationEnabled(boolean enabled) {
         IPulsateManager pulsateManager = PulsateFactory.getInstance();
         pulsateManager.setInAppNotificationEnabled(enabled);
