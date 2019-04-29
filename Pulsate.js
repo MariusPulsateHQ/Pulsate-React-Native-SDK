@@ -7,8 +7,8 @@ import { NativeModules, Platform } from 'react-native';
 const RNPulsateSdkReact = NativeModules.RNPulsateSdkReact;
 
 export const Pulsate = {
-    setAuthData: function (appid: string, appkey: string, gcmid: string) {
-        RNPulsateSdkReact.setAuthData(appid, appkey, gcmid);
+    setAuthData: function (appid: string, appkey: string) {
+        RNPulsateSdkReact.setAuthData(appid, appkey);
     },
     startPulsateSession: function (successCallback: () => string, errorCallback: () => string) {
         RNPulsateSdkReact.startPulsateSession(successCallback, errorCallback);

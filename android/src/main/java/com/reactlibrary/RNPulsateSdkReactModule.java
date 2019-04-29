@@ -34,8 +34,8 @@ public class RNPulsateSdkReactModule extends ReactContextBaseJavaModule {
     }
     
     @ReactMethod
-    public void setAuthData(String appid, String appkey, String gcmid) {
-        PulsateFactory.getInstance(new AuthorizationData(appid, appkey, gcmid));
+    public void setAuthData(String appid, String appkey) {
+        PulsateFactory.getInstance(new AuthorizationData(appid, appkey));
     }
 
     @ReactMethod
