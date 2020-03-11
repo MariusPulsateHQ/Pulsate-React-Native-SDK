@@ -50,4 +50,5 @@ import RNPulsateSdkReact from 'pulsate-react-native-sdk';
 // TODO: What to do with the module?
 RNPulsateSdkReact;
 ```
+- [Read More](https://pulsate.readme.io/v2.3/docs)
   
